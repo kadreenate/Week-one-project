@@ -1,0 +1,10 @@
+Question: FinTech Labs has a mix of human and non-human users. Categorize the following entities into the correct IAM taxonomy buckets:
+
+Sarah: A software engineer who writes backend payment APIs.
+Payment-Gateway-API-Key: An automated token used by the server to talk to Stripe.
+Alex: A customer service representative who handles support tickets.
+Lambda-Log-Processor: An AWS serverless function that scrapes audit logs every hour.
+
+Answer: 
+
+

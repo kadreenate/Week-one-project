@@ -1,4 +1,4 @@
-# Week-I-project
+# Week-1-project
 How to implement least privilege principle on AWS
 Step 1: Create an S3 bucket on AWS. To do this, follow these steps: Log in to the AWS Management Console > search for S3; click "Create bucket", add a globally unique name, leave all default settings as is and click "Create bucket". That gives us this: 
 
@@ -44,7 +44,7 @@ Create a user for the group. Go to "IAM users" on the left > "create user" > tic
 
 <img width="2957" height="1253" alt="image" src="https://github.com/user-attachments/assets/7219e288-6f92-4c97-985a-a4c17c9831d8" />
 
-Add user to the group you created previously. I added the user to the "Contoso" group. Then complete the user creation. Here's the user I created: 
+Add the user to the group you created previously. I added the user to the "Contoso" group. Then complete the user creation. Here's the user I created: 
 
 <img width="2338" height="1104" alt="image" src="https://github.com/user-attachments/assets/b1867564-6702-4c38-8880-22372b4face5" />
 
@@ -52,11 +52,11 @@ Step 4: Testing the permissions of the new user. Log in to the new account using
 
 <img width="3397" height="512" alt="image" src="https://github.com/user-attachments/assets/82f15108-a050-496a-a966-88fcbeba9220" />
 
-The user can also not view the EC2 and IAM dashboard. This is the error when trying to viewing the IAM dashboard: 
+The user also cannot view EC2 and the IAM dashboard. This is the error when trying to view the IAM dashboard: 
 
 <img width="1747" height="1460" alt="image" src="https://github.com/user-attachments/assets/59c077d1-2a42-4a55-86bb-485137a15715" />
 
-To update the user's permissions to perform more actions, use this JSON file:
+To update the user's permissions to perform more actions, use this JSON file (the file is also attached to this project):
 
 {
 	"Version": "2012-10-17",

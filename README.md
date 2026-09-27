@@ -100,3 +100,12 @@ With this new permission, the user can view an S3 bucket:
 The user can also upload files to the S3 bucket: 
 
 <img width="3261" height="676" alt="image" src="https://github.com/user-attachments/assets/7a9be754-ceda-4518-b16d-00a0cd1feaf4" />
+
+Question: FinTech Labs has a mix of human and non-human users. Categorize the following entities into the correct IAM taxonomy buckets:
+
+Sarah: A software engineer who writes backend payment APIs.
+Payment-Gateway-API-Key: An automated token used by the server to talk to Stripe.
+Alex: A customer service representative who handles support tickets.
+Lambda-Log-Processor: An AWS serverless function that scrapes audit logs every hour.
+
+Answer: <img width="1253" height="1102" alt="image" src="https://github.com/user-attachments/assets/f1c13d80-a904-4988-9569-a176b4bc4541" />

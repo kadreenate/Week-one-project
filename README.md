@@ -1,4 +1,4 @@
-# How to implement least privilege principle on AWS
+# How to implement the least privilege principle on AWS
 Step 1: Create an S3 bucket on AWS. To do this, follow these steps: Log in to the AWS Management Console > search for S3; click "Create bucket", add a globally unique name, leave all default settings as is and click "Create bucket". That gives us this: 
 
 <img width="3419" height="668" alt="image" src="https://github.com/user-attachments/assets/cd508067-ba70-4584-992e-81e404a7abba" />
